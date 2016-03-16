@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenericLinkedList.cs" />
+    <Compile Include="GenericNode.cs" />
     <Compile Include="MyLinkedList.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />

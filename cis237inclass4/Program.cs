@@ -30,10 +30,17 @@ namespace cis237inclass4
             }
 
             // Use the retrieve method to start at the Head of the lined list,
-            Console.WriteLine(iMadeALinkedList.Retrieve(2));
+            Console.WriteLine(iMadeALinkedList.Retrive(2));
+            
             // retreive doesnt seem to work?
 
             // Do some deletion of the linked list
+
+            // Creating a GenericLinkedList that is now able to be of ANY type (in this case strings)
+            GenericLinkedList<string> myGenericLinkedList = new GenericLinkedList<string>();
+            // Now as about poymorphism within the methods themselves?
+
+
             
         }
     }
