@@ -28,6 +28,13 @@ namespace cis237inclass4
             {
                 Console.WriteLine(x.Data);
             }
+
+            // Use the retrieve method to start at the Head of the lined list,
+            Console.WriteLine(iMadeALinkedList.Retrieve(2));
+            // retreive doesnt seem to work?
+
+            // Do some deletion of the linked list
+            
         }
     }
 }
